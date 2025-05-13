@@ -1,0 +1,11 @@
+[package]
+name = "tantivy_phrase_query"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tantivy = { version = "0.21.1", default-features = false }
+zstd-safe = "=6.0.5"
+zstd-sys = "=2.0.8"  # Try this older compatible version
+
+
